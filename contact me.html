@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: "Times New Roman", sans-serif;
+            background-color: #fef100;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #fef100;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            background-color: #f4f4f4;
+            border-radius: 25px;
+            font-size: 16px;
+            color: #333;
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px 15px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #A4E6F7;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #2852A8;
+            background-image: url(huhu.jpg);
+            color: #000000;
+            margin: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            font-size: 24px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 5px solid #dcdcdc;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #feffff;
+            color: #141313;
+            border: none;
+            border-radius: 15px;
+            margin: 20px auto;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #A4E6F7;
+        }
+
+        footer {
+            background-color: #fef100;
+            color: #000000;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px auto;
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            section {
+                font-size: 16px;
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            img {
+                width: 100px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">HOMEPAGE</a>
+        <a href="aboutme.html">ABOUT ME</a>
+        <a href="education.html">EDUCATION</a>
+        <a href="experience & skills.html">EXPERIENCE & SKILLS</a>
+        <a href="family.html">FAMILY</a>
+        <a href="contact me.html">Contact Me</a>
+    </nav>
+
+    <section id="CONTACT_ME">
+        <h2>CONTACT ME</h2>
+        <div class="image-container">
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+                <img src="gmail.png" alt="Gmail Icon" width="90">
+            </a>
+
+            <a href="https://wa.me/0179016411">
+                <img src="whatsapp.jpg" alt="WhatsApp Icon" width="80">
+            </a>
+        </div>
+        <p><b>GMAIL:</b> safiesallahuddin@gmail.com</p>
+        <p><b>PHONE NO:</b> +60179016411</p>
+        <a href="https://wa.me/0197194709" target="_blank">
+            <button>CONTACT ME</button>
+        </a>
+    </section>
+
+    <footer>
+        &copy; 2024 Muhammad Sallahuddin Website.
+    </footer>
+</body>
+</html>
